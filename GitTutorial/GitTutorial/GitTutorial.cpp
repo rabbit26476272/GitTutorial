@@ -6,6 +6,20 @@
 #include <iostream>
 using namespace std;
 
+bool Guess(int number) {
+	static int target = -1;
+
+	if (number > target) {
+		std::cout << "Smaller" << std::endl;
+		return false;
+	}
+	else if (number < target) {
+		std::cout << "Bigger" << std::endl;
+		return false;
+	}
+	return true;
+}
+
 int main()
 {
 	cout << "TOMEI!!!!!" << endl;
