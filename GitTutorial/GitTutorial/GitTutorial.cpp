@@ -9,5 +9,6 @@ using namespace std;
 int main()
 {
 	cout << "TOMEI!!!!!" << endl;
+	cout << "TOTO!!!!!" << endl;
 	return 0;
 }
